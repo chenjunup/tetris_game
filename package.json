@@ -1,0 +1,22 @@
+{
+  "name": "tetris_game",
+  "version": "1.0.0",
+  "repository": "https://github.com/chenjunup/tetris_game.git",
+  "author": "ccj",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
