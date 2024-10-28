@@ -25,3 +25,8 @@ tsc --init
 
 5. 添加webpack-dev-server clean-webpack-plugin
 
+6. 添加.gitignore文件
+
+```
+git rm -rf --cached . // 清除暂存区文件
+```
