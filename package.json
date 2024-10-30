@@ -5,6 +5,7 @@
   "author": "ccj",
   "license": "GPL-3.0",
   "devDependencies": {
+    "@types/jquery": "^3.5.32",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.6.3",
     "ts-loader": "^9.5.1",
@@ -17,6 +18,7 @@
     "dev": "webpack-dev-server --mode development"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "typescript": "^5.6.3"
   }
 }
